@@ -1,0 +1,378 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul li{
+    list-style: none;
+    color:  hsl(238, 22%, 44%);
+    cursor: pointer;
+}
+.nav .navbar{
+    display: flex;
+    gap: 40px;
+    padding: 50px 50px;
+}
+.nav .img img{
+    padding: 40px 80px;
+    cursor: pointer;
+}
+.home{
+    display: flex;
+    justify-content:space-between ;
+    flex-flow: row wrap;
+    width: 100%;
+    gap: 0;
+
+}
+.home .text{
+    padding: 30px 0;
+    width:70%;
+}
+.home .text h1{
+    width: 60%;
+    padding: 20px 80px;
+    gap: 50px;
+    font-size: 40px;
+    color: hsl(243, 87%, 12%);
+}
+.home .text p{
+    padding:0px 80px;
+    color: hsl(238, 22%, 44%);
+    width: 55%;
+}
+.home .text .input{
+    padding:20px 80px;
+    gap: 10px;
+    display: flex;
+
+}
+.home .text .input input{
+    height: 40px;
+    width: 300px;
+    border:solid 1px  hsl(238, 22%, 44%);
+    border-radius: 5px;
+    padding: 0 15px;
+    color: hsl(0, 0%, 75%);
+}
+.home .text .input button{
+    width: 180px;
+    height: 40px;
+    color: white;
+    background-color:hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 5px;
+    transition: .5s;
+    cursor: pointer;
+}
+.home .text .input button:hover{
+    background: hsl(224, 100%, 80%);
+}
+.home .img{
+    padding: 0 200px 0 0;
+    width: 300px;
+} 
+.br img{
+    margin: 100px 0 0 0;
+    overflow: hidden;
+}
+.cont2{
+    background-color:  hsl(240, 75%, 98%);
+    margin: -5px 0;
+    overflow: hidden;
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.cont2 .con2 h1{
+    font-size: 40px;
+    color: hsl(243, 87%, 12%);
+    margin: 30px 0 0 80px;
+    
+}
+.cont2 .con2 p{
+    padding: 8px 80px;
+    width: 60%;
+    color: hsl(243, 87%, 12%);
+}
+.cont2 .img img{
+    display: flex;
+    justify-content: end;
+    padding: 50px 80px 30px 0;
+}
+.cont2 .link{
+    display: flex;
+    padding: 0 80px;
+}
+.cont2 .link a{
+    text-decoration:none;
+    color: hsl(170, 45%, 43%);
+    font-size: 18px;
+}
+.cont2 .link img{
+    margin:0 0 0 5px;
+    cursor: pointer;
+}
+hr{
+    margin: 5px 80px;
+    width: 215px;
+    height: 1px;
+    background-color: hsl(170, 45%, 43%);
+    cursor: pointer;
+}
+.email{
+    background: white;
+    border-radius: 10px;
+    width: 45%;
+    margin: 30px 0 100px 80px;
+    box-shadow: 1px 1px 15px -10px;
+}
+.email img{
+    padding: 30px 0 0 30px;
+}
+.con2 .email p{
+    margin: 0 0 0 -50px;
+    width: 80%;
+    color: hsl(243, 87%, 12%);
+    font-size: 13px;
+}
+.con2 .email .kyle{
+    display: flex;
+    width: 600px;
+    height: 100px;
+    padding: 10px 0 0 20px;
+}
+.con2 .email .kyle .haha{
+    display: flex;
+    flex-flow:column wrap;
+    padding: 15px 0 0 0 ;
+}
+.con2 .email .kyle h5{
+    color: hsl(243, 87%, 12%);
+    font-weight: 700;
+}
+.email .kyle .avatar img{
+    width: 40px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.con2 .email .kyle p{
+    font-size: 11px;
+    font-weight: 300;
+    padding:5px 0 0 50px;
+    width: 150px;
+    
+}
+.cont3{
+    padding: 80px 0 0 80px;
+    height: 200px;
+    background:hsl(238, 22%, 44%);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.cont3 .text1{
+    width: 42%;
+}
+.cont3 .text1 p{
+    margin: 20px 0 0 0;
+}
+.cont3 .text2{
+    margin: 10px 140px 30px 0 ;
+    display:grid;
+}
+.cont3 .text2 input{
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+}
+.cont3 .text2 button{
+    width: 200px;
+    height: 40px;
+    margin: 0 10px 50px 0;
+    background:hsl(224, 93%, 58%) ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 15px -10px;
+    cursor: pointer;
+}
+.cont4{
+    background-color: hsl(243, 87%, 12%);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height: 350px;
+    color: white;
+    padding: 100px 200px 0 80px;
+}
+.cont4 .row1{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+    align-content:space-evenly;
+}
+.cont4 img{
+    filter: contrast(0);
+}
+.cont4 .row2{
+    margin: 75px 0;
+}
+.cont4 .row2 ul li{
+    list-style: none;
+    margin: 15px;
+    cursor: pointer;
+}
+.cont4 .row3 img{
+    margin: 80px 5px;
+}
+@media (max-width:750px) {
+    .nav .img img{
+        padding: 30px;
+    } 
+    .home{
+        flex-flow: wrap-reverse;
+    }
+    .home .img{
+        display: flex;
+        justify-content: center;
+        margin: 0 0 0 190px;
+        width: 200px;
+        text-align: center;
+    }
+    .home .text{
+        align-items: center;
+        width: 800px;
+        text-align: center;
+    }
+    .home .text h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 77%;
+        font-size: 34px;
+    }
+    .home .text p{
+        margin: 20px 0;
+        font-size: 20px;
+        width: 68%;
+        gap: 10px;
+    }
+    .input{
+        display: flex;
+        flex-flow: column;
+    }
+    .home .text .input input{
+        width:400px;
+        height: 60px;
+        font-size: large;
+        padding: 0 30px;
+    }
+    .home .text .input button{
+        width: 462px;
+        height: 60px;
+        font-size: large;
+        margin: 10px 0 0 0;
+    }
+    .cont2{
+        display: flex;
+        flex-flow:column-reverse wrap;
+    }
+    .cont2 img{
+        margin:0 100px 0 100px;
+    }
+    .cont2 .con2 h1{
+        text-align: center;
+        font-size: 23px;
+        margin: 100px 100px 30px 0;
+    }
+    .cont2 .con2 p{
+        font-size: 20px;
+        margin:0;
+        width: 450px;
+        text-align: start;
+        color: hsl(0, 0%, 75%);
+    }
+    .cont2 .link{
+        justify-content: center;
+        margin: 50px 80px 0 0;
+    }
+    hr{
+        display: flex;
+        margin:5px 0 0 215px ;
+    }
+    .email{
+        width: 460px;
+        height: 250px;
+    }
+    .email img{
+        width: 20px;
+        margin: 10px 0 0 0;
+    }
+    .con2 .email p{
+        font-size: 15px;
+        margin: 0 -50px;
+        width: 80%;
+        color: hsl(238, 22%, 44%);
+    }
+    .con2 .email .kyle .haha{
+    padding: 25px 0 0 0;
+    }
+    .cont3{
+        text-align: center;
+        flex-flow: column;
+        height: 450px;
+        align-items: center;
+        justify-content: center;
+    }
+    .cont3 .text1 h1{
+        width: 400px;
+        align-items: center;
+        margin: 0 0 0 -120px;
+    }
+    .cont3 .text1 p{
+        gap: 20px;
+        font-size: 20px;
+        width: 400px;
+        margin: 30px 0 0 -120px;
+    }
+    .cont3 .text2 input{
+        align-items: center;
+        margin: 20px 0 0 100px;
+    }
+    .cont3 .text2 button{
+        width: 400px;
+        margin: 10px 0 0 100px;
+    }
+    .cont4{
+        display: flex;
+        flex-flow:column wrap;
+        height: 100%;
+        font-size: 20px;
+    }
+    .cont4 .row2{
+        margin: 30px 0 0 -10px;
+    }
+    .cont4 .row3{
+        display: flex;
+        justify-content: center;
+        margin:0 0 0 100px;
+        gap: 10px;
+    }
+    .cont4 .row3 img{
+        cursor: pointer;
+        width: 30px;
+    }
+    .cont4 img{
+        width: 300px;
+    }
+    .cont4 .row1 img{
+        width: 20px;
+    }
+
+}
